@@ -14,6 +14,7 @@
 
   <body>
 <h1>Hello Jeetu Alex</h1>
+<div style="padding:10px;">
 <%
     UserService userService = UserServiceFactory.getUserService();
     User user = userService.getCurrentUser();
@@ -62,6 +63,6 @@ to include your name with greetings you post.</p>
       <div><textarea name="content" rows="3" cols="60"></textarea></div>
       <div><input type="submit" value="Post Greeting" /></div>
     </form>
-
+</div>
   </body>
 </html>
