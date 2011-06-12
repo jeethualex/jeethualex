@@ -13,7 +13,7 @@
   </head>
 
   <body>
-<h1>Hello Jeetu</h1>
+<h1>Hello Jeetu Alex</h1>
 <%
     UserService userService = UserServiceFactory.getUserService();
     User user = userService.getCurrentUser();
